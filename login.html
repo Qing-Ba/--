@@ -2,51 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>你来了？快登录吧</title>
-    <link rel="stylesheet" href="./css/login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你来了？快登录吧</title>
+  <link rel="stylesheet" href="./css/login.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <!-- 注册框 -->
-        <div class="container-form container-signup">
-            <form action="#" class="form" id="form1">
-                <h2 class="form-title">注册账号</h2>
-                <input type="text" placeholder="User" class="input" />
-                <input type="Email" placeholder="Email" class="input" />
-                <input type="password" placeholder="Password" class="input" />
+  <div class="container">
+    <!-- 注册框 -->
+    <div class="container-form container-signup">
+      <form action="#" class="form" id="form1">
+        <h2 class="form-title">注册账号</h2>
+        <input type="text" placeholder="User" class="input" />
+        <input type="Email" placeholder="Email" class="input" />
+        <input type="password" placeholder="Password" class="input" />
 
-                <button type="button" class="btn">点击注册</button>
-            </form>
-        </div>
-        <!-- 登录框 -->
-        <div class="container-form container-signin">
-            <form action="#" class="form" id="form2">
-                <h2 class="form-title">欢迎登录</h2>
-                <input type="email" placeholder="Email" class="input" />
-                <input type="password" placeholder="Password" class="input">
-                <a href="#" class="link">忘记密码</a>
-
-                <button type="button" class="btn">登录</button>
-            </form>
-        </div>
-        <!-- 叠加层部分 -->
-        <div class="container-overlay">
-            <div class="overlay">
-                <div class="overlay-panle overlay-left">
-                    <button class="btn" id="signIn">已有账号，直接登录</button>
-                </div>
-                <div class="overlay-panle overlay-right">
-                    <button class="btn" id="signUp">没有账号，点击注册</button>
-                </div>
-            </div>
-        </div>
+        <button type="button" class="btn">点击注册</button>
+      </form>
     </div>
+    
+    <!-- 登录框 -->
+    <div class="container-form container-signin">
+      <form action="user.html" class="form" id="form2">
+        <h2 class="form-title">欢迎登录</h2>
+        <input type="email" placeholder="Email" class="input" />
+        <input type="password" placeholder="Password" class="input">
+        <a href="#" class="link">忘记密码</a>
 
-    <script src="./js/login.js"></script>
+        <button type="button" class="btn">登录</button>
+      </form>
+    </div>
+    <!-- 叠加层部分 -->
+    <div class="container-overlay">
+      <div class="overlay">
+        <div class="overlay-panle overlay-left">
+          <button class="btn" id="signIn">已有账号，直接登录</button>
+        </div>
+        <div class="overlay-panle overlay-right">
+          <button class="btn" id="signUp">没有账号，点击注册</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/login.js"></script>
 </body>
 
 </html>
