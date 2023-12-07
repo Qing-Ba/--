@@ -93,6 +93,7 @@ body {
     padding: 1rem 4rem;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
+    text-decoration: none;
 }
 
 .form>.btn {
